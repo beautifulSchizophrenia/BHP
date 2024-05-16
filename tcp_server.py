@@ -15,7 +15,7 @@ if __name__ == '__main__':
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     server.bind((host, port))
-    server.listen(0)
+    server.listen(15)
     print('[+] Server is up\n')
 
     while True:
